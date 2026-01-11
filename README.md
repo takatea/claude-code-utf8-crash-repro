@@ -6,6 +6,7 @@ This repository reproduces a crash bug in Claude Code related to UTF-8 multi-byt
 
 - [#16543](https://github.com/anthropics/claude-code/issues/16543) - Rust panic at UTF-8 character boundary
 - [#14133](https://github.com/anthropics/claude-code/issues/14133) - Crash when processing Korean text
+- [#14104](https://github.com/anthropics/claude-code/issues/14104) - UTF-8 Character Boundary Crash
 
 ## Key Findings
 
