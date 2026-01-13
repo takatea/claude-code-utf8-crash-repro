@@ -1,5 +1,9 @@
 # Claude Code UTF-8 Crash Reproduction
 
+> **✅ Fixed in v2.1.6 (2026-01-13)**
+>
+> This bug appears to be fixed in Claude Code v2.1.6. The fix "Fixed text styling (bold, colors) getting progressively misaligned in multi-line responses" addressed the UTF-8 character boundary issue in syntax highlighting. Related issues [#16543](https://github.com/anthropics/claude-code/issues/16543), [#14133](https://github.com/anthropics/claude-code/issues/14133), [#14104](https://github.com/anthropics/claude-code/issues/14104) are now CLOSED.
+
 This repository reproduces a crash bug in Claude Code related to UTF-8 multi-byte character processing. **Key finding: the crash is related to the number of changes in the diff — many changes crash, few changes succeed.**
 
 ## Related Issues
